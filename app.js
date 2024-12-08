@@ -4,7 +4,7 @@ const mongoPlugin = require('@fastify/mongodb');
 
 // Conectar con MongoDB
 fastify.register(mongoPlugin, {
-  url: 'mongodb+srv://EAnselmi060:Lxe9jupr62BnJCIq@proydw.vs6az.mongodb.net/todo-list?retryWrites=true&w=majority&appName=ProyDW',
+  url: 'mongodb+srv://alexgf2703:B2iZWwVttkKqr2Fz@cluster0.r4lwh.mongodb.net/todo-list?retryWrites=true&w=majority&appName=Cluster0',
 }).after(err => {
   if (err) {
     fastify.log.error('Error al conectar con MongoDB:', err);
