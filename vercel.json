@@ -8,15 +8,9 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "app.js",
-      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-      "headers": {
-        "Access-Control-Allow-Origin": "https://eanselmi060.github.io",
-        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-        "Access-Control-Allow-Headers": "Content-Type, Authorization",
-        "Access-Control-Allow-Credentials": "true"
-      }
+      "src": "/.*",
+      "dest": "app.js"
     }
   ]
 }
+
